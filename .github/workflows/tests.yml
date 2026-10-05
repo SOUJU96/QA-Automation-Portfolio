@@ -1,0 +1,32 @@
+name: Tests
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '0 12 * * 1'   # weekly run
+jobs:
+  ui:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: playwright-js } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: lts/* }
+      - run: npm install
+      - run: npx playwright install --with-deps
+      - run: npx playwright test
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: ui-report, path: playwright-js/playwright-report/ }
+  api:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: api-automation } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: lts/* }
+      - run: npm install
+      - run: npx playwright test
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: api-report, path: api-automation/playwright-report/ }
