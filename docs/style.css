@@ -33,7 +33,6 @@ ul { padding: 0; list-style: none; }
 .id { display: grid; gap: 6px; }
 h1 { font-size: 1.55rem; line-height: 1.2; font-weight: 700; margin-top: 12px; text-wrap: balance; }
 .role { color: var(--accent); font-weight: 600; }
-.loc { color: var(--muted); font-size: .85rem; }
 .status { display: flex; gap: 8px; align-items: flex-start; font-size: .9rem; margin-top: 6px; }
 .dot { flex: none; width: 9px; height: 9px; border-radius: 50%; background: var(--ok); margin-top: .5em; }
 .links { display: flex; flex-wrap: wrap; gap: 8px; }
