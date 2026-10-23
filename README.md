@@ -2,6 +2,8 @@
 
 This is my learnings and code experiments for Software testing. As any other person, my work is not perfect, but definitely improving everyday.
 
+**Live site:** [souju96.github.io/QA-Automation-Portfolio](https://souju96.github.io/QA-Automation-Portfolio/)
+
 Hands-on test automation projects by **Soujanya Akella**, QA Automation Engineer (5+ years: banking and media platforms). They run against public demo sites, so no proprietary code or data is used.
 
 | Project | Stack | What it shows |
