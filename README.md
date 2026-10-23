@@ -8,6 +8,7 @@ Hands-on test automation projects by **Soujanya Akella**, QA Automation Engineer
 |---|---|---|
 | [`playwright-js/`](playwright-js) | Playwright, JavaScript | UI tests on saucedemo.com: Page Object Model, data-driven tests, cross-browser (Chromium + Firefox), HTML reports, tracing on retry |
 | [`api-automation/`](api-automation) | Playwright `request`, Ajv, JavaScript | API tests on restful-booker: auth fixture, client class, chained create/read/update/delete lifecycle, JSON-schema validation, negative cases, data-driven checks |
+| [`llm-testing/`](llm-testing/Testing-an-LLM.md) | Exploratory testing, test plan, report | Test plan, results and findings from testing a public AI chatbot: hallucination traps, instruction following, safety, prompt injection, consistency, UI checks, and how to turn them into a repeatable evaluation set |
 
 CI: [GitHub Actions](.github/workflows/tests.yml) runs both suites on every push and weekly, and uploads the HTML reports as artifacts.
 
