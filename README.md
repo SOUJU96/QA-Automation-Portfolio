@@ -4,13 +4,14 @@ This is my learnings and code experiments for Software testing. As any other per
 
 **Live site:** [souju96.github.io/QA-Automation-Portfolio](https://souju96.github.io/QA-Automation-Portfolio/)
 
-Hands-on test automation projects by **Soujanya Akella**, QA Automation Engineer (5+ years: banking and media platforms). They run against public demo sites, so no proprietary code or data is used.
+Hands-on test automation projects by **Soujanya Akella**, QA Automation Engineer (5+ years: banking and media platforms). They run against public demo sites and public datasets, so no proprietary code or data is used.
 
 | Project | Stack | What it shows |
 |---|---|---|
 | [`playwright-js/`](playwright-js) | Playwright, JavaScript | UI tests on saucedemo.com: Page Object Model, data-driven tests, cross-browser (Chromium + Firefox), HTML reports, tracing on retry |
 | [`api-automation/`](api-automation) | Playwright `request`, Ajv, JavaScript | API tests on restful-booker: auth fixture, client class, chained create/read/update/delete lifecycle, JSON-schema validation, negative cases, data-driven checks |
 | [`llm-testing/`](llm-testing/Testing-an-LLM.md) | Exploratory testing, test plan, report | Test plan, results and findings from testing a public AI chatbot: hallucination traps, instruction following, safety, prompt injection, consistency, UI checks, and how to turn them into a repeatable evaluation set |
+| [`Machine-Learning-Python/`](Machine-Learning-Python) | Python, pandas, scikit-learn, seaborn | Boston housing price prediction: simple and multiple linear regression, outlier removal (z-score and IQR), feature scaling, random forest comparison, and EDA with correlation heatmap and VIF |
 
 CI: [GitHub Actions](.github/workflows/tests.yml) runs both suites on every push and weekly, and uploads the HTML reports as artifacts.
 
