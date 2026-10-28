@@ -14,6 +14,7 @@ Hands-on test automation projects by **Soujanya Akella**, QA Automation Engineer
 | [`Machine-Learning-Python/Boston-Housing-Linear-Regression/`](Machine-Learning-Python/Boston-Housing-Linear-Regression) | Python, pandas, scikit-learn, seaborn | Boston housing price prediction: simple and multiple linear regression, outlier removal (z-score and IQR), feature scaling, random forest comparison, and EDA with correlation heatmap and VIF |
 | [`Machine-Learning-Python/Bank-Churn-Decision-Tree/`](Machine-Learning-Python/Bank-Churn-Decision-Tree) | Python, pandas, scikit-learn, Graphviz | Bank customer churn classification: one-hot encoding, decision tree with Graphviz plots, random forest, confusion matrix and accuracy, with notes on overfitting and class imbalance |
 | [`Machine-Learning-Python/Diabetes-Logistic-Regression/`](Machine-Learning-Python/Diabetes-Logistic-Regression) | Python, pandas, scikit-learn, seaborn | Diabetes prediction with logistic regression: confusion matrix, precision and recall, ROC curve and AUC, with notes on missing values and threshold choice |
+| [`Machine-Learning-Python/KMeans-Customer-Segmentation/`](Machine-Learning-Python/KMeans-Customer-Segmentation) | Python, NumPy, pandas, scikit-learn | Customer segmentation with K-means clustering: a from-scratch implementation and scikit-learn, elbow method, and five customer segments, with notes on the from-scratch version's limitations |
 
 CI: [GitHub Actions](.github/workflows/tests.yml) runs both suites on every push and weekly, and uploads the HTML reports as artifacts.
 
