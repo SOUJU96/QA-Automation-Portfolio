@@ -13,6 +13,7 @@ Hands-on test automation projects by **Soujanya Akella**, QA Automation Engineer
 | [`llm-testing/`](llm-testing/Testing-an-LLM.md) | Exploratory testing, test plan, report | Test plan, results and findings from testing a public AI chatbot: hallucination traps, instruction following, safety, prompt injection, consistency, UI checks, and how to turn them into a repeatable evaluation set |
 | [`Machine-Learning-Python/Boston-Housing-Linear-Regression/`](Machine-Learning-Python/Boston-Housing-Linear-Regression) | Python, pandas, scikit-learn, seaborn | Boston housing price prediction: simple and multiple linear regression, outlier removal (z-score and IQR), feature scaling, random forest comparison, and EDA with correlation heatmap and VIF |
 | [`Machine-Learning-Python/Bank-Churn-Decision-Tree/`](Machine-Learning-Python/Bank-Churn-Decision-Tree) | Python, pandas, scikit-learn, Graphviz | Bank customer churn classification: one-hot encoding, decision tree with Graphviz plots, random forest, confusion matrix and accuracy, with notes on overfitting and class imbalance |
+| [`Machine-Learning-Python/Diabetes-Logistic-Regression/`](Machine-Learning-Python/Diabetes-Logistic-Regression) | Python, pandas, scikit-learn, seaborn | Diabetes prediction with logistic regression: confusion matrix, precision and recall, ROC curve and AUC, with notes on missing values and threshold choice |
 
 CI: [GitHub Actions](.github/workflows/tests.yml) runs both suites on every push and weekly, and uploads the HTML reports as artifacts.
 
