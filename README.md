@@ -11,7 +11,8 @@ Hands-on test automation projects by **Soujanya Akella**, QA Automation Engineer
 | [`playwright-js/`](playwright-js) | Playwright, JavaScript | UI tests on saucedemo.com: Page Object Model, data-driven tests, cross-browser (Chromium + Firefox), HTML reports, tracing on retry |
 | [`api-automation/`](api-automation) | Playwright `request`, Ajv, JavaScript | API tests on restful-booker: auth fixture, client class, chained create/read/update/delete lifecycle, JSON-schema validation, negative cases, data-driven checks |
 | [`llm-testing/`](llm-testing/Testing-an-LLM.md) | Exploratory testing, test plan, report | Test plan, results and findings from testing a public AI chatbot: hallucination traps, instruction following, safety, prompt injection, consistency, UI checks, and how to turn them into a repeatable evaluation set |
-| [`Machine-Learning-Python/`](Machine-Learning-Python) | Python, pandas, scikit-learn, seaborn | Boston housing price prediction: simple and multiple linear regression, outlier removal (z-score and IQR), feature scaling, random forest comparison, and EDA with correlation heatmap and VIF |
+| [`Machine-Learning-Python/Boston-Housing-Linear-Regression/`](Machine-Learning-Python/Boston-Housing-Linear-Regression) | Python, pandas, scikit-learn, seaborn | Boston housing price prediction: simple and multiple linear regression, outlier removal (z-score and IQR), feature scaling, random forest comparison, and EDA with correlation heatmap and VIF |
+| [`Machine-Learning-Python/Bank-Churn-Decision-Tree/`](Machine-Learning-Python/Bank-Churn-Decision-Tree) | Python, pandas, scikit-learn, Graphviz | Bank customer churn classification: one-hot encoding, decision tree with Graphviz plots, random forest, confusion matrix and accuracy, with notes on overfitting and class imbalance |
 
 CI: [GitHub Actions](.github/workflows/tests.yml) runs both suites on every push and weekly, and uploads the HTML reports as artifacts.
 
